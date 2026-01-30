@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LEOS Sport</title>
+  <style>
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; background:#0f172a; color:#e5e7eb;}
+    header { background:#020617; padding:16px 24px; display:flex; justify-content:space-between; align-items:center;}
+    header h1 { margin:0; font-size:22px; color:#22c55e;}
+    nav a { color:#e5e7eb; text-decoration:none; margin-left:16px; font-size:14px;}
+    nav a:hover { color:#22c55e;}
+    .hero { padding:60px 24px; background:linear-gradient(135deg,#020617,#0f172a);}
+    .hero h2 { font-size:36px; margin-bottom:12px;}
+    .hero p { max-width:600px; line-height:1.6; color:#cbd5f5;}
+    .container { padding:40px 24px; max-width:1100px; margin:auto;}
+    .section-title { font-size:24px; margin-bottom:20px; border-left:4px solid #22c55e; padding-left:12px;}
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+    .card { background:#020617; padding:20px; border-radius:12px; box-shadow:0 10px 20px rgba(0,0,0,.3);}
+    .card h3 { margin-top:0; color:#22c55e;}
+    footer { background:#020617; padding:20px; text-align:center; font-size:14px; color:#94a3b8;}
+  </style>
+</head>
+<body>
+<header>
+  <h1>LEOS Sport</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Berita</a>
+    <a href="#">Liga Eropa</a>
+    <a href="#">Liga Indonesia</a>
+    <a href="#">Klub</a>
+    <a href="#">Tentang</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>European Style Football Media</h2>
+  <p>Media sepakbola modern dengan gaya Eropa. Menyajikan berita, statistik, jadwal pertandingan, dan analisis mendalam dari liga-liga top Eropa dan dunia.</p>
+</section>
+
+<section class="container">
+  <h2 class="section-title">Hasil Laga Terkini</h2>
+  <div class="cards">
+    <div class="card"><h3>Eropa (80%)</h3><p>Real Madrid 2 - 1 Barcelona<br>Manchester City 3 - 0 Chelsea<br>Inter Milan 1 - 1 Juventus</p></div>
+    <div class="card"><h3>Liga 1 Indonesia (10%)</h3><p>Persija 2 - 0 Arema<br>Persebaya 1 - 1 Persib</p></div>
+    <div class="card"><h3>Bundesliga (5%)</h3><p>Bayern 4 - 1 Mainz<br>Dortmund 2 - 2 Leipzig</p></div>
+    <div class="card"><h3>Ligue 1 (5%)</h3><p>Monaco 1 - 0 Marseille<br>Lille 2 - 1 Rennes</p></div>
+  </div>
+</section>
+
+<section class="container">
+  <h2 class="section-title">Klasemen Sementara</h2>
+  <div class="cards">
+    <div class="card"><h3>Liga Top Eropa</h3><p>1. Real Madrid<br>2. Manchester City<br>3. Inter Milan</p></div>
+    <div class="card"><h3>Liga 1 Indonesia</h3><p>1. Persib Bandung<br>2. Borneo FC<br>3. Bali United</p></div>
+    <div class="card"><h3>Bundesliga</h3><p>1. Bayern München<br>2. Bayer Leverkusen<br>3. Dortmund</p></div>
+    <div class="card"><h3>Ligue 1</h3><p>1. PSG<br>2. Monaco<br>3. Nice</p></div>
+  </div>
+</section>
+
+<footer>© 2026 LEOS Sport. All rights reserved.</footer>
+</body>
+</html>
