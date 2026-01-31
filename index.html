@@ -60,5 +60,25 @@
 </section>
 
 <footer>© 2026 LEOS Sport. All rights reserved.</footer>
+  ‎<script>
+‎/* ===== LEOS SPORT 2026 API ===== */
+‎const API_KEY = "3d2c930b1ae931073c5fb6110d56f22d";
+‎const HOST = "api-football-v1.p.rapidapi.com";
+‎
+‎// contoh tes koneksi (Premier League)
+‎fetch("https://api-football-v1.p.rapidapi.com/v3/fixtures?league=39&season=2026&last=3", {
+‎  headers: {
+‎    "X-RapidAPI-Key": API_KEY,
+‎    "X-RapidAPI-Host": HOST
+‎  }
+‎})
+‎.then(res => res.json())
+‎.then(data => {
+‎  console.log("API CONNECTED", data);
+‎})
+‎.catch(err => {
+‎  console.error("API ERROR", err);
+‎});
+‎</script>
 </body>
 </html>
